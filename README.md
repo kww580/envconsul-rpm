@@ -25,3 +25,10 @@ $ spectool -g -R rpmbuild/SPECS/envconsul.spec
 ```
 $ rpmbuild -ba rpmbuild/SPECS/envconsul.spec
 ```
+## Releases envconsul
+
+https://releases.hashicorp.com/envconsul/
+
+## Sources envconsul
+
+https://github.com/hashicorp/envconsul
