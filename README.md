@@ -13,15 +13,15 @@ $ sudo yum install rpmdevtools mock
 ```
 $ rpmdev-setuptree
 ```
-* Spec for great justice.
+* Copy spec.
 ```
-$ cp ${repo}/SPECS/envconsul.spec rpmbuild/SPECS/
+$ cp envconsul-rpm/SPECS/envconsul.spec rpmbuild/SPECS/
 ```
 * Download the release tarball.
 ```
 $ spectool -g -R rpmbuild/SPECS/envconsul.spec
 ```
-* And at long last, we build.
+* And build.
 ```
 $ rpmbuild -ba rpmbuild/SPECS/envconsul.spec
 ```
